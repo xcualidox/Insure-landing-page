@@ -309,19 +309,19 @@ text-transform: none; }
     }
     .close{
         opacity: 0;
-        z-index: 2;
+        
         transition: all .4s ease-in;
     }
     .open{
         transition: all .4s ease-in;
     }
     #close-open:checked ~ label .close{
-        opacity: 1;
-        z-index: 3;
+        opacity: unset;
+        
     }
     #close-open:checked ~ label .open{
         opacity: 0;
-        z-index: 2;
+       
     }
     .open, .close{
         animation: close-open .8s ease-in;
