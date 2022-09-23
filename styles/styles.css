@@ -315,11 +315,11 @@ text-transform: none; }
     .open{
         transition: all .4s ease-in;
     }
-    #close-open:checked ~ label .close{
+    #close-open:checked ~ .navbar label .close{
         opacity: unset;
         
     }
-    #close-open:checked ~ label .open{
+    #close-open:checked ~ .navbar label .open{
         opacity: 0;
        
     }
